@@ -1,2 +1,4 @@
 # LinearPattern_Resolution
-A circuit made in falstad that shows a pattern of deactivating LEDs in a linear format.
+A circuit made in falstad that shows a pattern of deactivating LEDs in a linear format. This gives off a directional effect where the darkness spreads throughout the line. The animation below shows the circuit at work:
+<img width="1150" height="600" alt="Circuit" src="https://github.com/user-attachments/assets/ed32deb4-1d32-4012-993d-627fb4b4f00d" />
+Every time the switch is moved from closed to open, the LEDs begin to turn off starting from the one farthest from the battery to the closest. The resistance is the main factor that allows this sequence to happen. And, as you can see, the resistors go up in resistance as the duration of the LED being turned on after the circuit is opened is higher. These 2 aspects are directly proportional which allows me to edit how long each LED ison after the switch is openned
